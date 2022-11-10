@@ -4,30 +4,32 @@
 ### 软件版本
 | 软件 | 版本 |
 | --- | :--: |
-| 系统 | macOS Big Sur 11.6.5 (20G527) |
-| 引导 | OpenCore v0.8.0 |
+| 系统 | macOS Big Sur 11.7.1 (20G918) |
+| 引导 | OpenCore v0.8.5 |
 
 ### 自选硬件
 |   硬件    |   型号  |
 | -------- | :----: |
 | 主机 | 联想 ThinkPad T540p |
-| CPU | Intel Core i7 4800MQ |
-| 内存 | 三星 DDR4 1600 8G*2 |
-| 硬盘 | 三星 860EVO，Sata 500GB |
+| CPU | Intel Core i5 4300MQ |
+| 内存 | 三星 DDR3 1600 8G+4G |
+| 硬盘 | Sata 60GB |
 | 显卡 | Intel HD Graphics 4600 |
-| 屏幕 | 3K高分屏 |
+| 屏幕 | 720p屏 |
 | 无线网卡 | Intel 7260AC |
 
 ### 完成度
+
 + 核显正常驱动，2048MB显存
 + 声卡正常驱动
 + Wi-Fi正常驱动，蓝牙不稳定(蓝牙连接音响正常，声音不卡顿；连接罗技AnyWhere3蓝牙鼠标失败)，隔空投送不能用
 + USB定制，所有USB接口正常
 + SD卡读卡器正常驱动
-+ M.2(Sata)硬盘装Win10，OC可引导Win10
-+ 引导界面图形化，开机有“duang”声音
++ 双盘双系统，OC可引导Win10
 
 ### 缺陷
+
++ 引导界面不能图形化，不懂原因，估计是BIOS设置的问题
 + 睡眠花屏，禁用睡眠、休眠（转发CSDN教程原文地址：[黑苹果完全禁用睡眠](https://blog.csdn.net/fjh1997/article/details/112559539)）
 ```bash
 # Before doing anything, save your current configuration using
